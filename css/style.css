@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+/*----------------BODY--------------*/
+
+body{
+    background-color: #252525;
+}
+
+/*---------------ENCABEZADO----------------*/
+
+.container_encabezado{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 65);
+    height: 60px;
+    width: 100%;
+}
+
+.navegador ul li a:hover {
+    background-color: #252525;
+}
+.navegador ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navegador ul li a {
+    font-size: x-large;
+}
+
+.icono_logo{
+    height: 60px;
+    margin-left: 20px;
+}
+
+.icono_logo img{
+    height: 50px;
+    margin-top: 3px;
+}
+.icono_logo h1{
+    display: inline-block;
+    margin-top: 3px;
+    color: beige;
+}
+
+/*----------------------------------MAIN-----INDEX----------------------------------*/
+
+.seccion_imagen_titulo{
+    height: 1000px;
+}
+
+.seccion_imagen_titulo h2{
+    text-align: center;
+    margin-top: 25px;
+    color: aliceblue;
+}
+
+
+.seccion_imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.seccion_imagen img{
+    height: 80vh;
+    width: 95%;
+    padding: 30px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid  rgb(248, 102, 4);
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*----------------SECCION----INDEX-----------------*/
+
+.container_cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+    background-color: #252525;
+    margin-top: 100px;
+    
+}
+
+.cuerpo_carta{
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.cuerpo_carta img{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    border: 2px solid  rgb(248, 102, 4);
+}
+
+.cuerpo_carta p{
+    color: rgb(177, 177, 177);
+    font-size: 18px;
+    text-align: center;
+    
+
+}
+/*--------------DUDAS--------------------*/             
+main h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+    color: beige;
+}
+.enumeracion {color: rgb(248, 102, 4);}
+.grid_container_preguntas {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: x-large;
+    gap: 5em;
+}
+.grid_preguntas:hover {
+    background-color: black;
+}
+.grid_preguntas h3{
+    color: beige;
+}
+.grid_preguntas ol li {
+    color: beige;
+}
+.grid_preguntas p {
+    color: beige;
+}
+.grid_preguntas {
+    border: 2px solid  rgb(248, 102, 4);
+    padding: 15px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 20px 20px 20px 20px;
+}
+/*-------NOSOTROS-------*/
+.container_imagen_fondo {
+    width: 95%;
+    height: 60vh;
+    background-image: url(../img/imagen6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid  rgb(248, 102, 4);
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.cuerpo_parrafos_imagen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+}
+.imagen_medio img { 
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid  rgb(248, 102, 4);
+}
+.parrafos {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.parrafos p { 
+    color: beige;
+}
+.cuerpo_imagen_data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+.imagen_escritos img{
+width: 170%;
+height: 60vh;
+margin-left: 30px;
+border-radius: 20px 20px 20px 20px;
+border: 2px solid  rgb(248, 102, 4);
+
+}
+.escritos {
+    margin-left: 500px;
+    margin-right: 30px;
+}
+
+fieldset {
+    width: 50%;
+    height: 215px;    
+    margin-left: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid  rgb(248, 102, 4);
+}
+.valores h2{
+    margin-top: 3px;
+}
+.valores ul li{
+    padding: 2px;
+    color: beige;
+    font-size: large;
+    margin-top: 5px;
+}
+
+.vision {
+    text-align: center;
+    font-size: x-large;
+    color: beige;
+}
+.vision h3 {
+    font-size: 3rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.objetivos h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3px;
+    color: beige;
+
+}
+.objetivos ul li {
+    color: beige;
+    padding: 2px;
+    font-size: 20px;
+}
+
+/*---------------------SERVICIOS-----------------------------*/
+.container_foto_fondo { 
+    width: 95%;
+    height: 70vh;
+    background-image: url(../img/ezeiza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid  rgb(248, 102, 4);
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    color: beige;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.escritos_fondo ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: large;
+}
+.escritos_fondo p {
+    margin-top: 120px;
+    font-size: x-large;
+    text-align: center;
+}
+.izquierda_derecha {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.foto1y2 img {
+    height: 300px;
+    width: 600px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid  rgb(248, 102, 4);
+    margin-left: 45px;
+    margin-right: 60px;
+
+}
+.abierto{
+
+    width: 25%;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid  rgb(248, 102, 4);
+    background-color: #252525;
+}
+.abierto h2{
+    color: beige;
+    margin-top: 1px;
+
+}
+.abierto img {
+    width: 25%;
+    margin-left: 219px;
+}
+
+.flota {
+    width: 95%;
+    height: 70vh;
+    background-image: url(../img/jorgesehundio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid  rgb(248, 102, 4);
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    color: beige;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+/*-------CONTACTANOS--------*/
+.formulario_en_imagen_fondo {
+    width: 95%;
+    height: 70vh;
+    background-image: url(../img/versa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid  rgb(248, 102, 4);
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    color: beige;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.lista li {
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        margin-left: 150px;
+        margin-top: 30px;
+        font-size: x-large;
+}
+.st h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+.st p {
+
+    margin-top: 50px;
+    font-size: xx-large;
+}
+.nombre { 
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.telefono {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.email {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.empresa{
+    font-size: x-large;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.informacion_adicional h3{
+    font-size: x-large;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.rellenar {
+    margin-left: 60px;
+    width: 30%;
+}
+.solicitar_traslado{
+    margin-left: 200px;
+    width: 200px;
+    height: 50px;
+    background-color: #252525;
+    color: rgb(248, 102, 4);
+}
+.sigueme img{
+width: 150px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding: 40px;
+margin-left: 250px;
+}
+/*-----------------------footer--------------------*/
+
+.footer_pagina{
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.redes_footer img{
+    height: 40px;
+    margin-right: 30px;
+}
+
+.footer_pagina h3{
+    margin-left: 40px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-top: 40px;
+
+}
